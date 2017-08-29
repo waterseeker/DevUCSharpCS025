@@ -28,10 +28,14 @@ namespace DevUCSharpCS_ASP_025
             //}
 
             //you could do the same thing like this.... 
-            if (!firstCheckBox.Checked) return;
-            if (!secondCheckBox.Checked) return;
-            if (!thirdCheckBox.Checked) return;
-            resultLabel.Text = "They're all checked!";
+            //if (!firstCheckBox.Checked) return;
+            //if (!secondCheckBox.Checked) return;
+            //if (!thirdCheckBox.Checked) return;
+            //resultLabel.Text = "They're all checked!";
+
+            //or you could do it like this.... 
+            if (firstCheckBox.Checked && secondCheckBox.Checked && thirdCheckBox.Checked)
+                resultLabel.Text = "Or you could do it like this.";
         }
     }
 }
