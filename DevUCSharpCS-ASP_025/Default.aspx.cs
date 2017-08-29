@@ -14,5 +14,18 @@ namespace DevUCSharpCS_ASP_025
 
         }
 
+        protected void addButton_Click(object sender, EventArgs e)
+        {
+            if (firstCheckBox.Checked)
+            {
+                if (secondCheckBox.Checked)
+                {
+                    if (thirdCheckBox.Checked)
+                    {
+                        resultLabel.Text = "They're all checked!";
+                    }
+                }
+            }
+        }
     }
 }

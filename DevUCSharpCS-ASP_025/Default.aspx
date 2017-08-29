@@ -18,7 +18,7 @@
             <asp:CheckBox ID="thirdCheckBox" runat="server" />
             <br />
             <br />
-            <asp:Button ID="addButton" runat="server" Text="Add" />
+            <asp:Button ID="addButton" runat="server" OnClick="addButton_Click" Text="Add" />
             <br />
             <br />
             <asp:Label ID="resultLabel" runat="server"></asp:Label>
